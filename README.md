@@ -4,14 +4,14 @@ In Crypto.js file you can see two function are defined Encryption and Decryption
 
 # Encryption method
 
-*Take the password as an input string.
-*Convert each element to its ascii value.
-*Add a specific number to that value. (32)
-  *If the total value exceeds 126, subtract that value from 126 and push that value in an array.
-    *If the value is less than 10 then add 0 as prefix and push it in an array.
-  *If total value does not exceed value 126, then convert that ascii value to character and store it in an array.
-*Join all array elements as a string. 
-*Encrypted string is ready.
+1 Take the password as an input string.
+2 Convert each element to its ascii value.
+3 Add a specific number to that value. (32)
+  3.1 If the total value exceeds 126, subtract that value from 126 and push that value in an array.
+    3.1.1 If the value is less than 10 then add 0 as prefix and push it in an array.
+  3.2If total value does not exceed value 126, then convert that ascii value to character and store it in an array.
+4 Join all array elements as a string. 
+5 Encrypted string is ready.
 
 
 # Description method

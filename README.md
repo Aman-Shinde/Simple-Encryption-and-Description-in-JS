@@ -1,11 +1,10 @@
 # Simple-Encryption-and-Description-in-JS #
 
-In Crypto.js file you can see two function are defined Encryption and Decryption, both of then take string as a argument and return the Encrypted and Descrypted text.
-
+In Crypto.js file you can see two functions are defined Encryption and Decryption, both of them take a string as an argument and return the Encrypted and Decrypted text.
 
 ## Encryption method ##
 
-- Take the password as an input string.
+- Takes the password as an input string.
 - Convert each element to its ascii value.
 - Add a specific number to that value. (32)
   - If the total value exceeds 126, subtract that value from 126 and push that value in an array.
